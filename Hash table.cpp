@@ -44,38 +44,6 @@ private:
         for (tmp_s; tmp_s < maxsize; tmp_s++) arr[tmp_s] = nullptr;
         delete[] array;
         array = arr;
-        /*
-        auto temp = array;
-        unsigned int tmp_s = maxsize;
-        size = 0, maxsize = maxsize * 2;
-        for (unsigned int i = 0; i < maxsize; i++) array[i] = nullptr;
-        for (unsigned int i = 0; i < tmp_s; i++) {
-            if (temp[i] != nullptr) for (auto v : *temp[i]) Dodaj(v.key, v.value);
-        }
-        */
-        /*
-        arr = new vector<item<T>>*[maxsize];
-        for (unsigned int i = 0; i < maxsize; i++) arr[i] = nullptr;
-        for (int i = 0; i < maxsize; i++) {
-            if (array[i] != nullptr) arr[i] = array[i];
-        }
-        size = 0;
-        delete[] array;
-        for (unsigned int i = 0; i < t; i++) {
-            if (arr[i] != nullptr) for (auto v : *arr[i]) Dodaj(v.key, v.value);
-        }
-        array = arr;
-        */
-        /*
-        maxsize = maxsize * 2;
-        delete[] array;
-        size = 0;
-        array = new vector<item<T>>*[maxsize];
-        for (unsigned int i = 0; i < maxsize; i++) array[i] = nullptr;
-        for (unsigned int i = 0; i < size; i++) { 
-            for (auto& v : *array[i]) Dodaj(v.key, v.value);
-        }
-        */
     }
     void l_sizes(int index) {
         l_size = array[index]->size();
@@ -215,55 +183,3 @@ int main()
     }
     return 0;
 }
-
-
-/*
-    srand(time(NULL));
-    //obj->Dodaj("aaAAaa", 1);
-    //obj->Usun("aaAAaa");
-    for (int i = 0; i < 10000; i++) {
-        int t1 = rand() % 100000;
-        obj->Dodaj(R_String(), t1);
-    }
-    obj->Wyswietl();
-    //cout << obj->Znajdz("aaAAaa") << endl;
-    obj->Wyczysc();
-    obj->Wyswietl();
-    getchar();
-*/
-
-/*
-unsigned int tmp_s = size;
-maxsize = maxsize * 2;
-auto tmp = array;
-arr = new list<item<T>>*[maxsize];
-for (unsigned int i = 0; i < size; i++) arr[i] = array[i];
-for (tmp_s; tmp_s < maxsize; tmp_s++) arr[tmp_s] = nullptr;
-delete[] array;
-array = arr;
-*/
-
-/*
-arr = new list<item<T>>*[maxsize];
-for (unsigned int i = 0; i < maxsize; i++) arr[i] = nullptr;
-for (int i = 0; i < maxsize; i++) {
-    if (array[i] != nullptr) arr[i] = array[i];
-}
-size = 0;
-delete[] array;
-for (unsigned int i = 0; i < t; i++) {
-    if (arr[i] != nullptr) for (auto v : *arr[i]) Dodaj(v.key, v.value);
-}
-array = arr;
-*/
-/*
-delete[] array;
-unsigned int tmp_s = size;
-size = 0;
-maxsize = maxsize * 2;
-array = new list<item<T>>*[maxsize];
-for (unsigned int i = 0; i < maxsize; i++) array[i] = nullptr;
-for (unsigned int i = 0; i < tmp_s; i++) {
-    if (tmp[i] != nullptr) for (auto v : *tmp[i]) Dodaj(v.key, v.value);
-}
-*/
