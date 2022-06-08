@@ -1,8 +1,3 @@
-﻿//ALGO2 IS1 222B LAB01
-//Bartosz Sobański
-//sb49402@zut.edu.pl
-
-// https://wikizmsi.zut.edu.pl/uploads/2/22/Pklesk_linked_list.pdf
 #include "pch.h"
 #include <time.h>
 #include <sstream>
