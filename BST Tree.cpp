@@ -1,7 +1,3 @@
-//ALGO2 IS1 222B LAB03
-//Bartosz Sobański
-//sb49402@zut.edu.pl
-
 #include "pch.h"
 #include <time.h>
 #include <sstream>
