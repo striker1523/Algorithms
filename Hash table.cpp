@@ -1,7 +1,3 @@
-﻿//ALGO2 IS1 222B LAB05
-//Bartosz Sobański
-//sb49402@zut.edu.pl
-
 #include <iostream>
 #include <string>
 #include <sstream>
