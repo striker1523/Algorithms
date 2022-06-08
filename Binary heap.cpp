@@ -1,8 +1,3 @@
-﻿//ALGO2 IS1 222B LAB06
-//Bartosz Sobański
-//sb49402@zut.edu.pl
-
-//#include "pch.h"
 #include <iostream>
 #include <vector>
 #include <algorithm>
