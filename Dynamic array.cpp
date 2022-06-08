@@ -1,9 +1,3 @@
-﻿//ALGO2 IS1 222B LAB02
-//Bartosz Sobański
-//sb49402@zut.edu.pl
-
-//http://wikizmsi.zut.edu.pl/uploads/2/24/Pklesk_dynamic_array.pdf
-
 #include "pch.h"
 #include <iostream>
 #include <time.h>
